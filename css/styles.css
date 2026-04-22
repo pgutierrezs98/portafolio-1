@@ -1,8 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+section {
+  padding: 100px 40px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
 }
 
 .hero {
