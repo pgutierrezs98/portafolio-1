@@ -15,7 +15,7 @@
 
   <body>
     <header class="reveal" id="inicio">
-      <h1>Paulo Gutiérrez S.</h1>
+      <h1>Paulo | Front-end Developer</h1>
       <nav>
         <a href="#inicio">Inicio</a>
         <a href="#proyectos">Proyectos</a>
@@ -24,15 +24,24 @@
     </header>
 
     <section class="hero reveal">
-      <h2>Hola, soy <span>Paulo</span></h2>
-      <p>
-        Frontend Developer enfocado en crear experiencias modernas, rápidas y atractivas.
-        Actualmente aprendiendo y profundizando en Vue.
-      </p>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h2>Hola, soy <span>Paulo</span></h2>
+          <p>
+            Front-end Developer en constante formación enfocado en crear experiencias
+            modernas, rápidas y atractivas. Actualmente aprendiendo y profundizando en
+            Vue.
+          </p>
 
-      <div class="buttons">
-        <a href="#" class="btn primary">Ver proyectos</a>
-        <a href="#" class="btn secondary">Contáctame</a>
+          <div class="buttons">
+            <a href="#proyectos" class="btn primary">Ver proyectos</a>
+            <a href="#contacto" class="btn secondary">Contáctame</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="./assets/images/splash_image_1.png" alt="imagen principal" />
+        </div>
       </div>
     </section>
 
@@ -41,40 +50,54 @@
 
       <div class="projects">
         <div class="card">
+          <img src="./assets/images/alkewallet_ss.png" alt="AlkeWallet" />
           <h3>AlkeWallet</h3>
           <p>
             Aplicación web de gestión financiera diseñada para ofrecer a los usuarios una
             experiencia fluida, segura y moderna al administrar su dinero.
           </p>
-          <a href="">Ver demo</a><br />
-          <a href="https://github.com/pgutierrezs98/alke-wallet">Ver código en GitHub</a>
+          <a
+            href="https://pgutierrezs98.github.io/alke-wallet/0.index.html"
+            class="project-link"
+            >Ver demo</a
+          ><br />
+          <a href="https://github.com/pgutierrezs98/alke-wallet" class="project-link"
+            >Ver código en GitHub</a
+          >
         </div>
 
         <div class="card">
+          <img src="./assets/images/smartbudget_ss.png" alt="SmartBudget" />
           <h3>SmartBudget</h3>
           <p>
             Landing page con sistema de cards y hero section. Implementación de CSS y
             Bootstrap
           </p>
-          <a href="">Ver demo</a><br />
-          <a href="https://github.com/pgutierrezs98/smart-budget">Ver código en GitHub</a>
+          <a href="https://pgutierrezs98.github.io/smart-budget/" class="project-link"
+            >Ver demo</a
+          ><br />
+          <a href="https://github.com/pgutierrezs98/smart-budget" class="project-link"
+            >Ver código en GitHub</a
+          >
         </div>
 
         <div class="card">
+          <img src="./assets/images/coming_soon_ss.png" alt="BookList" />
           <h3>BookList</h3>
           <p>
             Una aplicación web simple para buscar, ver y agregar libros. Construida con
             Vue 3 y estilo visual moderno con Bootstrap 5.
           </p>
-          <a href="">Ver demo</a><br />
-          <a href="https://github.com/pgutierrezs98/proyecto-m6">Ver código en GitHub</a>
+          <a href="https://github.com/pgutierrezs98/proyecto-m6" class="project-link"
+            >Ver código en GitHub</a
+          >
         </div>
       </div>
     </section>
 
     <section id="contacto" class="reveal">
       <h2>Contacto</h2>
-      <p>Puedes contactarme directamente:</p>
+      <p>Puedes contactarme directamente a través de estos enlaces:</p>
 
       <div class="contact-links">
         <a href="mailto:paulogutierrezs98@gmail.com">Email</a>
@@ -85,7 +108,7 @@
 
     <footer>
       <p>© 2026 Paulo Gutiérrez S.</p>
-      <p>Frontend Developer</p>
+      <p>Front-end Developer</p>
     </footer>
     <!-- Mi JS -->
     <script src="./js/script.js"></script>
